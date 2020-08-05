@@ -168,8 +168,8 @@ collections:
     editor:
       preview: false
     fields:
-      - label: "Homepage header"
-        name: "home_header" 
+      - label: "Section 1"
+        name: "section_1_home_header" 
         widget: "object"
         collapsed: true
         fields:
@@ -201,5 +201,14 @@ collections:
           - {label: "Register Button", name: promo_register_button, widget: "string"}
           - {label: "Register Button Redirect URL", name: promo_register_button_redirect_url, widget: "string"} 
           - {label: "Header Text2", name: header_text2, widget: "string"}
+      - label: "Section 2"
+        name: "section_2_home_header" 
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: "Heading", name: section_2_heading, widget: "string"}
+          - {label: "Payment Image 1", name: section_2_payment_image_1, widget: image, required: false, default: ""}
+          - {label: "Payment Image 2", name: section_2_payment_image_2, widget: image, required: false, default: ""}
+          - {label: "Text", name: "section_2_text", widget: "string", required: false}
       - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
       - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
