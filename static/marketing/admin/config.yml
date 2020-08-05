@@ -176,7 +176,6 @@ collections:
           - {label: "Span Login Anchor Redirect URL", name: span_login_anchor_redirect_url, widget: "string"}
           - {label: "Home Title", name: "home_title", widget: "string"}
           - {label: "Home Subtitle", name: "home_subtitle", widget: "string", required: false}
-          - {label: "Header Title Display", name: "header_title_display", widget: "string", default: true}
           - {label: "Header Display Text", name: "header_display_text", widget: "string", required: false}
           - label: "Homepage Game Slider"
             name: "homepage_game_slider"
@@ -202,3 +201,4 @@ collections:
           - {label: "Header Text2", name: header_text2, widget: "string"}
       - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
       - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
+      - {label: 'Homepage Body2', name: 'homepage_body2', widget: 'markdown' }
