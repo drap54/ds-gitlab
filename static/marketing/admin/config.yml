@@ -179,10 +179,10 @@ collections:
           - {label: "Header Title Display", name: "header_title_display", widget: "string", default: true}
           - {label: "Header Display Text", name: "header_display_text", widget: "string", required: false}
           - label: "Homepage Game Slider"
-          name: "homepage_game_slider"
-          widget: "object"
-          colapsed: true
-          fields:
+            name: "homepage_game_slider"
+            widget: "object"
+            colapsed: true
+            fields:
               - {label: "Home Game Icon 1", name: home_game_icon_1, widget: image, required: false, default: ""}
               - {label: "Home Game URL", name: home_game_url_1, widget: string, required: false, default: ""}
               - {label: "Home Game Icon 2", name: home_game_icon_2, widget: image, required: false, default: ""}
