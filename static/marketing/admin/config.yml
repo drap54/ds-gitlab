@@ -154,6 +154,7 @@ collections:
               - {label: "Game URL", name: game_url_6, widget: string, required: false, default: ""}
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: 'Footer', name: 'footer', widget: 'markdown' }
   - name: "VJ-Homapage"
     label: "Vera&John Homepage"
     format: 'frontmatter'
@@ -201,4 +202,3 @@ collections:
           - {label: "Header Text2", name: header_text2, widget: "string"}
       - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
       - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
-      - {label: 'Homepage Body2', name: 'homepage_body2', widget: 'markdown' }
