@@ -167,3 +167,8 @@ collections:
       preview: false
     fields:
       - label: "Homepage header"
+      name: "home_header" 
+      widget: "object"
+      collapsed: true
+      fields:
+        - {label: "Header Login Text", name: header_login_text, widget: "string"}
