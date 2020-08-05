@@ -273,15 +273,15 @@ collections:
               - {label: "Text", name: section_5_column_3_text, widget: "string"}
               - {label: "Image", name: section_5_image_3, widget: image, required: false, default: ""}
       - label: "Section 6"
-            name: "section_6"
-            widget: "object"
-            colapsed: true
-            fields:
-              - {label: "Heading", name: section_6_heading, widget: "string"}
-              - {label: "Text 1", name: section_6_text_1, widget: "string"}
-              - {label: "Text 2", name: section_6_text_2, widget: "string"}
-              - {label: "Button Text", name: section_6_button_text, widget: "string"}   
-              - {label: "Button Redirect URL", name: section_6_button_redirect_url, widget: "string"}
+        name: "section_6"
+        widget: "object"
+        colapsed: true
+        fields:
+          - {label: "Heading", name: section_6_heading, widget: "string"}
+          - {label: "Text 1", name: section_6_text_1, widget: "string"}
+          - {label: "Text 2", name: section_6_text_2, widget: "string"}
+          - {label: "Button Text", name: section_6_button_text, widget: "string"}   
+          - {label: "Button Redirect URL", name: section_6_button_redirect_url, widget: "string"}
       - label: "Section 7"
         name: "section_7_columns" 
         widget: "object"
