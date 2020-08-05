@@ -184,18 +184,18 @@ collections:
           widget: "object"
           colapsed: true
           fields:
-            - {label: "Home Game Icon 1", name: home_game_icon_1, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_1, widget: string, required: false, default: ""}
-            - {label: "Home Game Icon 2", name: home_game_icon_2, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_2, widget: string, required: false, default: ""}
-            - {label: "Home Game Icon 3", name: home_game_icon_3, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_3, widget: string, required: false, default: ""}
-            - {label: "Home Game Icon 4", name: home_game_icon_4, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_4, widget: string, required: false, default: ""}
-            - {label: "Home Game Icon 5", name: home_game_icon_5, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_5, widget: string, required: false, default: ""}
-            - {label: "Home Game Icon 6", name: home_game_icon_6, widget: image, required: false, default: ""}
-            - {label: "Home Game URL", name: home_game_url_6, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 1", name: home_game_icon_1, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_1, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 2", name: home_game_icon_2, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_2, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 3", name: home_game_icon_3, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_3, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 4", name: home_game_icon_4, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_4, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 5", name: home_game_icon_5, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_5, widget: string, required: false, default: ""}
+              - {label: "Home Game Icon 6", name: home_game_icon_6, widget: image, required: false, default: ""}
+              - {label: "Home Game URL", name: home_game_url_6, widget: string, required: false, default: ""}
         - {label: "Header Heading4", name: header_heading4, widget: "string"}
         - {label: "Header Text1", name: header_text1, widget: "string"}
         - {label: "Register Button", name: promo_register_button, widget: "string"}
