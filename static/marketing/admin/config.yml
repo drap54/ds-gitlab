@@ -154,3 +154,14 @@ collections:
               - {label: "Game URL", name: game_url_6, widget: string, required: false, default: ""}
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
+  - name: posts
+    preview_path_date_field: "updated_on"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['.{20,}', "Must have at least 20 characters"]
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+        comment: 'This is a multiline\ncomment'
