@@ -155,7 +155,3 @@ collections:
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
   - name: "VJ-Homapage"
-  label: "Vera&John Homepage"
-  format: 'frontmatter'
-  folder: "assets/content/vjhp"
-  create: true
