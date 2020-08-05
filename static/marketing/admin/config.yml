@@ -154,3 +154,15 @@ collections:
               - {label: "Game URL", name: game_url_6, widget: string, required: false, default: ""}
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "VJ-Homapage"
+    label: "Vera&John Homepage"
+    format: 'frontmatter'
+    folder: "assets/content/vjhp"
+    create: true
+    identifier_field: "home_title"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: vjhp/{{slug}}
+    show_preview_links: false
+    editor:
+      preview: false
+    fields:
