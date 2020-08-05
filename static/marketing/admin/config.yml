@@ -167,7 +167,7 @@ collections:
     preview: false
   fields:
     - label: "Homepage header"
-    name: "home_header" 
+    name: "homepage_header" 
     widget: "object"
     collapsed: true
     fields:
