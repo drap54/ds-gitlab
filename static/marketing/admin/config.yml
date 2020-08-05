@@ -155,20 +155,20 @@ collections:
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
   - name: "VJ-Homapage"
-    label: "Vera&John Homepage"
-    format: 'frontmatter'
-    folder: "assets/content/vjhp"
-    create: true
-    identifier_field: "home_title"
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    preview_path: vjhp/{{slug}}
-    show_preview_links: false
-    editor:
-      preview: false
+  label: "Vera&John Homepage"
+  format: 'frontmatter'
+  folder: "assets/content/vjhp"
+  create: true
+  identifier_field: "home_title"
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  preview_path: vjhp/{{slug}}
+  show_preview_links: false
+  editor:
+    preview: false
+  fields:
+    - label: "Homepage header"
+    name: "home_header" 
+    widget: "object"
+    collapsed: true
     fields:
-      - label: "Homepage header"
-      name: "home_header" 
-      widget: "object"
-      collapsed: true
-      fields:
-        - {label: "Header Login Text", name: header_login_text, widget: "string"}
+    - {label: "Header Login Text", name: header_login_text, widget: "string"}
