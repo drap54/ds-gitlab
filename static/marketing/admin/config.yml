@@ -195,5 +195,5 @@ collections:
               - {label: "Home Game URL", name: home_game_url_5, widget: string, required: false, default: ""}
               - {label: "Home Game Icon 6", name: home_game_icon_6, widget: image, required: false, default: ""}
               - {label: "Home Game URL", name: home_game_url_6, widget: string, required: false, default: ""}
-      - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
-      - {label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
+      - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
