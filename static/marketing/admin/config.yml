@@ -303,5 +303,19 @@ collections:
               - {label: "Heading", name: section_7_column_2_heading, widget: "string"}
               - {label: "Text", name: section_7_column_2_text, widget: "string"}
               - {label: "Image", name: section_7_image_column_2, widget: image, required: false, default: ""}
+      - label: "Section 8"
+        name: "section_8"
+        widget: "object"
+        colapsed: true
+        fields:
+          - {label: "Heading", name: section_8_heading, widget: "string"}
+          - {label: "Menu 1", name: section_8_menu_1_text, widget: "string"}   
+          - {label: "Menu 1 Redirect URL", name: section_8_menu_1_redirect_url, widget: "string"}
+          - {label: "Menu 2", name: section_8_menu_2_text, widget: "string"}   
+          - {label: "Menu 2 Redirect URL", name: section_8_menu_2_redirect_url, widget: "string"}
+          - {label: "Menu 3", name: section_8_menu_3_text, widget: "string"}   
+          - {label: "Menu 3 Redirect URL", name: section_8_menu_3_redirect_url, widget: "string"}
+          - {label: "Menu 4", name: section_8_menu_4_text, widget: "string"}   
+          - {label: "Menu 4 Redirect URL", name: section_8_menu_4_redirect_url, widget: "string"}
       - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
       - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
