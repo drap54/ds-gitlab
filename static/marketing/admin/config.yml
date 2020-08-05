@@ -318,4 +318,4 @@ collections:
           - {label: "Menu 4", name: section_8_menu_4_text, widget: "string"}   
           - {label: "Menu 4 Redirect URL", name: section_8_menu_4_redirect_url, widget: "string"}
       - {label: Template, name: home_template, widget: hidden, default: "VJHP"}
-      - {label: 'Homepage Body', name: 'homepage_body', widget: 'markdown' }
+      - {label: 'Footer', name: 'homepage_footer', widget: 'markdown' }
