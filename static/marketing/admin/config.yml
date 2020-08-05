@@ -166,3 +166,4 @@ collections:
     editor:
       preview: false
     fields:
+      - label: "Homepage header"
