@@ -11,6 +11,10 @@ export default {
     login_header_text: {
       type: String,
       required: true,
+    },
+    login_header_redirect_url: {
+      type: String,
+      required: true,
     }
   },
 };

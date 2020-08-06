@@ -182,6 +182,8 @@ collections:
         fields:
           - {label: "Header Button Text", name: header_text, widget: "string"}
           - {label: "Header Button Redirect URL", name: header_button_redirect_url, widget: "string"}
+          - {label: "Login Account Text", name: header_login_account_text, widget: "string"}
+          - {label: "Login Account Text Redirect URL", name: header_login_account_text_redirect_url, widget: "string"}
       - label: "Games Brick Section"
         name: "games_brick_section" 
         widget: "object"
