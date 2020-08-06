@@ -71,6 +71,8 @@ a {
 
 a:hover .post-content,
 a:active .post-content {
-  background-color: cornflowerblue;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
 }
 </style>
