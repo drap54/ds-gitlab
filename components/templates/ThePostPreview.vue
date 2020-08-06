@@ -40,6 +40,8 @@ export default {
   background-color: #cce5ff;
   border: 1px solid #b8daff;
   border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
   width: 90%;
 }
 
