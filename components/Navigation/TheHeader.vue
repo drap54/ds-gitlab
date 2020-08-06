@@ -32,7 +32,6 @@ export default {
 };
 </script>
 
-
 <style scoped>
 .header-container {
   height: 60px;
