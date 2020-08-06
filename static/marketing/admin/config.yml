@@ -168,13 +168,13 @@ collections:
     editor:
       preview: false
     fields:
-      - label: "Section 1"
-        name: "section_1_home_header" 
+      - label: "Login Header Section"
+        name: "login_header_section"
         widget: "object"
         collapsed: true
         fields:
-          - {label: "Span Login Anchor", name: span_login_anchor, widget: "string"}
-          - {label: "Span Login Anchor Redirect URL", name: span_login_anchor_redirect_url, widget: "string"}
+          - {label: "Login Header Text", name: login_header_text, widget: "string"}
+          - {label: "Login Header Redirect URL", name: login_header_redirect_url, widget: "string"}
       - label: "Section 3"
         name: "section_3_columns" 
         widget: "object"
@@ -201,8 +201,8 @@ collections:
         fields:
           - {label: "Button Text", name: section_6_button_text, widget: "string"}   
           - {label: "Button Redirect URL", name: section_6_button_redirect_url, widget: "string"}
-      - label: "Section 8"
-        name: "section_8"
+      - label: "Footer Section"
+        name: "footer_section"
         widget: "object"
         colapsed: true
         fields:
