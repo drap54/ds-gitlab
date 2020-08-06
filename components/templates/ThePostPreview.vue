@@ -39,6 +39,8 @@ export default {
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
+  border: 1px solid transparent;
+  border-radius: .25rem;
   width: 90%;
 }
 
