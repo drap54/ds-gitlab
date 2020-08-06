@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'headerSection',
+  name: 'gamesBrickSection',
   props: {
     games_brick_column_1_button: {
       type: String,
