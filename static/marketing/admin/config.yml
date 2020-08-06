@@ -159,7 +159,7 @@ collections:
   - name: "VJ-Homapage"
     label: "Vera&John Homepage"
     format: 'frontmatter'
-    folder: "assets/content/landing-page/marketing/vjlp3"
+    folder: "assets/content/homepage/marketing/vjhp"
     create: true
     identifier_field: "home_title"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
