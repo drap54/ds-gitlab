@@ -1,7 +1,7 @@
 backend:
   #name: git-gateway
   name: github
-  repo: kenkoy/nuxt-netlify-landing-page
+  repo: drap54/ds-gitlab
   branch: master
 
 publish_mode: editorial_workflow  
