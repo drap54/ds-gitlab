@@ -215,12 +215,11 @@ collections:
         widget: "object"
         colapsed: true
         fields:
-          - {label: "Menu 1", name: section_8_menu_1_text, widget: "string"}   
-          - {label: "Menu 1 Redirect URL", name: section_8_menu_1_redirect_url, widget: "string"}
-          - {label: "Menu 2", name: section_8_menu_2_text, widget: "string"}   
-          - {label: "Menu 2 Redirect URL", name: section_8_menu_2_redirect_url, widget: "string"}
-          - {label: "Menu 3", name: section_8_menu_3_text, widget: "string"}   
-          - {label: "Menu 3 Redirect URL", name: section_8_menu_3_redirect_url, widget: "string"}
-          - {label: "Menu 4", name: section_8_menu_4_text, widget: "string"}   
-          - {label: "Menu 4 Redirect URL", name: section_8_menu_4_redirect_url, widget: "string"}
-      - {label: 'Footer', name: 'homepage_footer', widget: 'markdown' }
+          - {label: "Menu 1", name: footer_menu_1_text, widget: "string"}   
+          - {label: "Menu 1 Redirect URL", name: footer_menu_1_redirect_url, widget: "string"}
+          - {label: "Menu 2", name: footer_menu_2_text, widget: "string"}   
+          - {label: "Menu 2 Redirect URL", name: footer_menu_2_redirect_url, widget: "string"}
+          - {label: "Menu 3", name: footer_menu_3_text, widget: "string"}   
+          - {label: "Menu 3 Redirect URL", name: footer_menu_3_redirect_url, widget: "string"}
+          - {label: "Menu 4", name: footer_menu_4_text, widget: "string"}   
+          - {label: "Menu 4 Redirect URL", name: footer_menu_4_redirect_url, widget: "string"}
