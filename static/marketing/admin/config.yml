@@ -175,32 +175,39 @@ collections:
         fields:
           - {label: "Login Header Text", name: login_header_text, widget: "string"}
           - {label: "Login Header Redirect URL", name: login_header_redirect_url, widget: "string"}
-      - label: "Section 3"
-        name: "section_3_columns" 
+      - label: "Header Section"
+        name: "header_section"
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: "Header Button Text", name: header_text, widget: "string"}
+          - {label: "Header Button Redirect URL", name: header_button_redirect_url, widget: "string"}
+      - label: "Games Brick Section"
+        name: "games_brick_section" 
         widget: "object"
         collapsed: true
         fields:
           - label: "Column 1"
-            name: "section_3_column_1"
+            name: "games_brick_column_1"
             widget: "object"
             colapsed: true
             fields:
-              - {label: "Button", name: section_3_column_1_button, widget: "string"}   
-              - {label: "Button Redirect URL", name: section_3_column_1_button_redirect_url, widget: "string"} 
+              - {label: "Button", name: games_brick_column_1_button, widget: "string"}   
+              - {label: "Button Redirect URL", name: games_brick_column_1_button_redirect_url, widget: "string"} 
           - label: "Column 2"
-            name: "section_3_column_2"
+            name: "games_brick_column_2"
             widget: "object"
             colapsed: true
             fields:
-              - {label: "Button", name: section_3_column_2_button, widget: "string"}   
-              - {label: "Button Redirect URL", name: section_3_column_2_button_redirect_url, widget: "string"}
-      - label: "Section 6"
-        name: "section_6"
+              - {label: "Button", name: games_brick_column_2_button, widget: "string"}   
+              - {label: "Button Redirect URL", name: games_brick_column_2_button_redirect_url, widget: "string"}
+      - label: "Testimonials Section"
+        name: "testimonials_section"
         widget: "object"
         colapsed: true
         fields:
-          - {label: "Button Text", name: section_6_button_text, widget: "string"}   
-          - {label: "Button Redirect URL", name: section_6_button_redirect_url, widget: "string"}
+          - {label: "Button Text", name: testimonials_button_text, widget: "string"}   
+          - {label: "Button Redirect URL", name: testimonials_button_redirect_url, widget: "string"}
       - label: "Footer Section"
         name: "footer_section"
         widget: "object"
