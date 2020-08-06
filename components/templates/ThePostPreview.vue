@@ -38,8 +38,7 @@ export default {
 .post-preview {
   color: #004085;
   background-color: #cce5ff;
-  border-color: #b8daff;
-  border: 1px solid transparent;
+  border: 1px solid #b8daff;
   border-radius: .25rem;
   width: 90%;
 }
