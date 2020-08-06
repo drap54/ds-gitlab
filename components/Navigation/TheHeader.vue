@@ -87,13 +87,13 @@ export default {
 
 .nav-item a {
   text-decoration: none;
-  color: crimson;
+  color: #dc3545;
 }
 
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a.nuxt-link-active {
-  color: dodgerblue;
+  color: #007bff;
 }
 
 .header .logo img {
