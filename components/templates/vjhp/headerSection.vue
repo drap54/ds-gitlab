@@ -24,11 +24,11 @@
 export default {
   name: 'headerSection',
   props: {
-    header_button_redirect_url: {
+    header_text: {
       type: String,
       required: true,
     },
-    header_text: {
+    header_button_redirect_url: {
       type: String,
       required: true,
     },
