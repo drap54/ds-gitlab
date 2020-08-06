@@ -1,8 +1,8 @@
 backend:
-  #name: git-gateway
-  name: github
-  repo: drap54/ds-gitlab
-  branch: master
+  name: git-gateway
+  #name: github
+  #repo: drap54/ds-gitlab
+  #branch: master
 
 publish_mode: editorial_workflow  
 media_folder: static/marketing/img
