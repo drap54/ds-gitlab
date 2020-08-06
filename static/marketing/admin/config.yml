@@ -173,34 +173,8 @@ collections:
         widget: "object"
         collapsed: true
         fields:
-          - {label: "Header Login Text", name: header_login_text, widget: "string"}
           - {label: "Span Login Anchor", name: span_login_anchor, widget: "string"}
           - {label: "Span Login Anchor Redirect URL", name: span_login_anchor_redirect_url, widget: "string"}
-          - {label: "Home Title", name: "home_title", widget: "string"}
-          - {label: "Home Subtitle", name: "home_subtitle", widget: "string", required: false}
-          - {label: "Header Display Text", name: "header_display_text", widget: "string", required: false}
-          - label: "Homepage Game Slider"
-            name: "homepage_game_slider"
-            widget: "object"
-            colapsed: true
-            fields:
-              - {label: "Home Game Icon 1", name: home_game_icon_1, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_1, widget: string, required: false, default: ""}
-              - {label: "Home Game Icon 2", name: home_game_icon_2, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_2, widget: string, required: false, default: ""}
-              - {label: "Home Game Icon 3", name: home_game_icon_3, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_3, widget: string, required: false, default: ""}
-              - {label: "Home Game Icon 4", name: home_game_icon_4, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_4, widget: string, required: false, default: ""}
-              - {label: "Home Game Icon 5", name: home_game_icon_5, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_5, widget: string, required: false, default: ""}
-              - {label: "Home Game Icon 6", name: home_game_icon_6, widget: image, required: false, default: ""}
-              - {label: "Home Game URL", name: home_game_url_6, widget: string, required: false, default: ""}
-          - {label: "Header Heading4", name: header_heading4, widget: "string"}
-          - {label: "Header Text1", name: header_text1, widget: "string"}
-          - {label: "Register Button", name: promo_register_button, widget: "string"}
-          - {label: "Register Button Redirect URL", name: promo_register_button_redirect_url, widget: "string"} 
-          - {label: "Header Text2", name: header_text2, widget: "string"}
       - label: "Section 3"
         name: "section_3_columns" 
         widget: "object"
@@ -211,9 +185,6 @@ collections:
             widget: "object"
             colapsed: true
             fields:
-              - {label: "Heading", name: section_3_column_1_heading, widget: "string"}
-              - {label: "Background Image", name: section_3_background_image_1, widget: image, required: false, default: ""}
-              - {label: "Text", name: section_3_column_1_text, widget: "string"}
               - {label: "Button", name: section_3_column_1_button, widget: "string"}   
               - {label: "Button Redirect URL", name: section_3_column_1_button_redirect_url, widget: "string"} 
           - label: "Column 2"
@@ -221,9 +192,6 @@ collections:
             widget: "object"
             colapsed: true
             fields:
-              - {label: "Heading", name: section_3_column_2_heading, widget: "string"}
-              - {label: "Background Image", name: section_3_background_image_2, widget: image, required: false, default: ""}
-              - {label: "Text", name: section_3_column_2_text, widget: "string"}
               - {label: "Button", name: section_3_column_2_button, widget: "string"}   
               - {label: "Button Redirect URL", name: section_3_column_2_button_redirect_url, widget: "string"}
       - label: "Section 6"
@@ -231,38 +199,13 @@ collections:
         widget: "object"
         colapsed: true
         fields:
-          - {label: "Heading", name: section_6_heading, widget: "string"}
-          - {label: "Text 1", name: section_6_text_1, widget: "string"}
-          - {label: "Text 2", name: section_6_text_2, widget: "string"}
           - {label: "Button Text", name: section_6_button_text, widget: "string"}   
           - {label: "Button Redirect URL", name: section_6_button_redirect_url, widget: "string"}
-      - label: "Section 7"
-        name: "section_7_columns" 
-        widget: "object"
-        collapsed: true
-        fields:
-          - label: "Column 1"
-            name: "section_7_column_1"
-            widget: "object"
-            colapsed: true
-            fields:
-              - {label: "Heading", name: section_7_column_1_heading, widget: "string"}
-              - {label: "Text", name: section_7_column_1_text, widget: "string"}
-              - {label: "Image", name: section_7_image_column_1, widget: image, required: false, default: ""}
-          - label: "Column 2"
-            name: "section_7_column_2"
-            widget: "object"
-            colapsed: true
-            fields:
-              - {label: "Heading", name: section_7_column_2_heading, widget: "string"}
-              - {label: "Text", name: section_7_column_2_text, widget: "string"}
-              - {label: "Image", name: section_7_image_column_2, widget: image, required: false, default: ""}
       - label: "Section 8"
         name: "section_8"
         widget: "object"
         colapsed: true
         fields:
-          - {label: "Heading", name: section_8_heading, widget: "string"}
           - {label: "Menu 1", name: section_8_menu_1_text, widget: "string"}   
           - {label: "Menu 1 Redirect URL", name: section_8_menu_1_redirect_url, widget: "string"}
           - {label: "Menu 2", name: section_8_menu_2_text, widget: "string"}   
