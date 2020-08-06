@@ -36,9 +36,9 @@ export default {
 
 <style scoped>
 .post-preview {
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px #ccc;
-  background-color: dodgerblue;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
   width: 90%;
 }
 
