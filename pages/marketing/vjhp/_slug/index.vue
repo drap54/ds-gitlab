@@ -1,6 +1,7 @@
 <template>
   <div>
     <loginHeaderSection
+      :title = "post.attributes.promo_banner.promo_title"
       :login_header_text = "post.attributes.login_header_section.login_header_text"
       :login_header_redirect_url = "post.attributes.login_header_section.login_header_redirect_url" />
     <headerSection
