@@ -1,3 +1,6 @@
+html, body {
+    overflow-x: hidden;
+}
 input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -865,22 +868,22 @@ input[type="submit"],
 		font-size: 16px;
 		line-height: 24px;
 	}
-	section#cta {
+	section#testimonial {
 		background-color: #006CAE;
 	}
-	section#cta h2 {
+	section#testimonial h2 {
 		font-size: 44px;
 		line-height: 54px;
 		font-weight: bold;
 		color: #FFEA00;
 	}
-	section#cta p {
+	section#testimonial p {
 		font-size: 26px;
 		line-height: 34px;
 		color: #ffffff;
 		margin: 2em;
 	}
-	section#cta p strong {
+	section#testimonial p strong {
 		font-size: 44px;
 		line-height: 54px;
 		font-weight: bold;
@@ -2289,18 +2292,36 @@ input[type="submit"],
 		}
 
 		header.heading h2 {
-			font-size: 40px !important;
-			line-height: 50px !important;
+			font-size: 40px;
+			line-height: 50px;
 			margin-bottom: 34px;
-			width: 688px;
-    		text-align: initial;
+    		text-align: center;
 		}
 
 		header.heading p {
 			margin-top: 2em;
 			margin-bottom: 0;
-			font-size: 22px !important;
-			line-height: 32px !important;
+			font-size: 11px;
+			line-height: 14px;
+		}
+		section#trivia {
+			margin: 100px 120px;
+		}
+		.trivia-content span.image {
+			display: block;
+			width: 444px;
+			margin: auto;
+		}
+		section#trivia h2 {
+			font-size: 40px;
+			line-height: 50px;
+			display: flex;
+			margin: 0 auto 24px;
+			width: 540px;
+		}
+		section#trivia p {
+			font-size: 24px;
+			line-height: 32px;
 		}
 
 		.first-half {
@@ -2341,6 +2362,9 @@ input[type="submit"],
 		.support li {
 			width: 100%;
 		}
+		.support li:nth-child(1) {
+			padding-bottom: 20px;
+		}
 		.items-list li {
 			display: inline-block;
 			width: 100%;
@@ -2350,6 +2374,7 @@ input[type="submit"],
 			padding-top: 5em;
 		}
 		.items-list li:last-child {
+			padding-top: 0;
 			padding-bottom: 4em;
 		}
 		header.heading.header-inline {
@@ -2370,13 +2395,19 @@ input[type="submit"],
 			margin-right: 3em;
 			margin-left: 3em;
 		}
-		section#cta p {
-			font-size: 24px;
-			line-height: 32px;
-		}
-		section#cta p strong {
+		section#testimonial h2 {
 			font-size: 40px;
 			line-height: 50px;
+		}
+		section#testimonial p {
+			font-size: 24px;
+			line-height: 32px;
+			margin: 0 0 64px;
+		}
+		section#testimonial p strong {
+			font-size: 40px;
+			line-height: 50px;
+			margin: 0;
 		}
 		a.button.primary {
 			font-size: 17px;
@@ -2386,12 +2417,12 @@ input[type="submit"],
 		a.button.secondary {
 			position: absolute;
     		bottom: 48px;
-    		left: 30%;
+    		left: 35%;
 		}
 		a.button.tertiary {
 			position: absolute;
     		bottom: 48px;
-    		left: 30%;
+    		left: 35%;
 		}
 		.support h3 {
 			font-size: 24px;
@@ -2416,11 +2447,14 @@ input[type="submit"],
 	}
 	
 	@media screen and (max-width: 375px) {
+		#wrapper {
+			background-position: -794px -20px;
+		}
 		#header h2 {
-			font-size: 22px;
+			font-size: 24px;
 			line-height: 25px;
-			margin-top: 35px;
-			margin-bottom: 0;
+			margin-top: 15px;
+			margin-bottom: 20px;
 		}
 		#header h1 {
 			font-size: 41px;
@@ -2437,12 +2471,12 @@ input[type="submit"],
 			padding: 2em 1em;
 		}
 		#header h4 {
-			font-size: 22px;
+			font-size: 24px;
 			line-height: 25px;
 		}
 		header.heading h2 {
-			font-size: 26px !important;
-			line-height: 35px !important;
+			font-size: 26px;
+			line-height: 35px;
 		}
 		header.heading p {
 			font-size: 11px;
@@ -2454,19 +2488,111 @@ input[type="submit"],
 		}
 		.first-half h3 {
 			font-size: 26px;
-			line-height: 46px;
+			line-height: 35px;
 		}
 		.first-half p {
 			font-size: 18px;
 			line-height: 25px;
 		}
 		.features li {
-			padding: 10px;
+			padding: 48px;
+			height: 770px;
+		}
+		.features li:nth-child(2) {
+			margin-top: 0;
+		}
+		.features li p {
+			font-size: 17px;
+			line-height: 25px;
+			left: 24px;
+			right: 24px;
+		}
+		a.button.secondary {
+			left: 48px;
 		}
 		a.button.tertiary {
-			font-size: 17px;
-			line-height: 20px;
-			padding-top: 17px;
+			left: 47px;
 		}
-
+		.second-half {
+			background-position: -150px 30px;
+		}
+		.second-half h3 {
+			font-size: 26px;
+			line-height: 35px;
+		}
+		.trivia-content span.image img {
+			width: 343px;
+		}
+		section#trivia {
+			margin: 100px 20px;
+		}
+		section#trivia h2 {
+			font-size: 26px;
+			line-height: 35px;
+		}
+		section#trivia p {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		section#second h3 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.items-list {
+			width: auto;
+			margin-bottom: 0;
+		}
+		section#second p {
+			font-size: 14px;
+			margin-right: 24px;
+			margin-left: 24px;
+		}
+		section#testimonial h2 {
+			font-size: 26px;
+			line-height: 35px;
+		}
+		section#testimonial p {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		section#testimonial p strong {
+			font-size: 26px;
+			line-height: 35px;
+		}
+		.support h3 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.support p {
+			font-size: 18px;
+			line-height: 25px;
+		}
+		.support li img {
+			margin-left: -155px;
+		}
+		.support li:nth-child(2) {
+			margin-top: 0;
+		}
+		.support li:last-child img {
+			margin: auto;
+		}
+		ul.support {
+			margin-bottom: 0;
+		}
+		#footer h6 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		#footer li {
+			width: 100%;
+		}
+		#footer li a {
+			font-size: 16px;
+			line-height: 24px;
+		}
+		footer#footer li {
+			display: list-item;
+			margin: 16px 0;
+			padding-top: 0;
+		}
 	}

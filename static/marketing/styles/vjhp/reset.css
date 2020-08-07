@@ -12,7 +12,7 @@ input,select,textarea{-moz-appearance:none;-webkit-appearance:none;-ms-appearanc
 @-ms-viewport{width:device-width}
 body{-ms-overflow-style:scrollbar}
 @media screen and (max-width:480px){
-body,html{min-width:320px}
+body,html{min-width:320px;overflow-x:hidden;}
 }
 html{box-sizing:border-box}
 *,:after,:before{box-sizing:inherit}
