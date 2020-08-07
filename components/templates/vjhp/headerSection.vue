@@ -1,5 +1,6 @@
 <template>
     <header id="header">
+      <div style="display:none;">{{ homepage_title }}</div>
 			<span class="logo"><img src="images/logo.svg" alt="" /></span>
 			<h2>ベラジョン・オンラインカジノへようこそ!</h2>
 			<h1>日本NO.1カジノ!</h1>
@@ -39,6 +40,10 @@ export default {
     header_login_account_text_redirect_url: {
         type: String,
         required: true,
+    },
+    homepage_title: {
+      type: String,
+      required: true,
     }
   },
 };
