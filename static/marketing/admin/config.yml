@@ -162,7 +162,7 @@ collections:
     folder: "assets/content/landing-page/marketing/vjhp"
     create: true
     identifier_field: "promo_banner.promo_title"
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     preview_path: vjhp/{{slug}}
     show_preview_links: false
     editor:
