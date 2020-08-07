@@ -9,7 +9,6 @@ import {
 } from './utils'
 
 import NuxtLoading from './components/nuxt-loading.vue'
-import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../static/marketing/styles/lp-core/animate.min.css'
 
@@ -18,10 +17,11 @@ import '../static/marketing/styles/lp-core/hover-min.css'
 import '../static/marketing/styles/lp-core/slick.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _7831250a from '../layouts/vjlhp.vue'
 import _783125c3 from '../layouts/vjlp1.vue'
 import _783125c5 from '../layouts/vjlp3.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_vjlp1": sanitizeComponent(_783125c3),"_vjlp3": sanitizeComponent(_783125c5) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_vjlhp": sanitizeComponent(_7831250a),"_vjlp1": sanitizeComponent(_783125c3),"_vjlp3": sanitizeComponent(_783125c5) }
 
 export default {
   render (h, props) {
@@ -56,7 +56,7 @@ export default {
       }
     }, [
       loadingEl,
-      h(NuxtBuildIndicator),
+
       transitionEl
     ])
   },
@@ -181,10 +181,6 @@ export default {
     },
 
     setLayout (layout) {
-      if(layout && typeof layout !== 'string') {
-        throw new Error('[nuxt] Avoid using non-string value as layout property.')
-      }
-
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }
