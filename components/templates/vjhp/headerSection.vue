@@ -1,7 +1,7 @@
 <template>
     <header id="header">
       <div style="display:none;">{{ title }}</div>
-			<span class="logo"><img src="images/logo.svg" alt="" /></span>
+			<span class="logo"><img src="/marketing/img/vjhp/logo.svg" alt="" /></span>
 			<h2>ベラジョン・オンラインカジノへようこそ!</h2>
 			<h1>日本NO.1カジノ!</h1>
 			<h3>圧倒的な人気とシェア!<br>さらに安心・安全・楽しいの3拍子がばっちり揃う、業界ナンバーワンカジノで遊んじゃおう!</h3>
