@@ -4,6 +4,7 @@
       :login_header_text = "post.attributes.login_header_section.login_header_text"
       :login_header_redirect_url = "post.attributes.login_header_section.login_header_redirect_url" />
     <headerSection
+      :homepage_title = "post.attributes.header_section.homepage_title"
       :header_text = "post.attributes.header_section.header_text"
       :header_button_redirect_url = "post.attributes.header_section.header_button_redirect_url"
       :header_login_account_text = "post.attributes.header_section.header_login_account_text"
