@@ -1,6 +1,5 @@
 <template>
     <header id="header">
-      <div style="display:none;">{{ title }}</div>
 			<span class="logo"><img src="/marketing/img/vjhp/logo.svg" alt="" /></span>
 			<h2>ベラジョン・オンラインカジノへようこそ!</h2>
 			<h1>日本NO.1カジノ!</h1>
