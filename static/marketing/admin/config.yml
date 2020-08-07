@@ -159,7 +159,7 @@ collections:
   - name: "VJ-Homepage"
     label: "Vera&John Homepage"
     format: 'frontmatter'
-    folder: "assets/content/homepage/marketing/vjhp"
+    folder: "assets/content/landing-page/marketing/vjhp"
     create: true
     identifier_field: "promo_banner.promo_title"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -186,7 +186,6 @@ collections:
         widget: "object"
         collapsed: true
         fields:
-          - {label: "Title", name: "homepage_title", widget: "string"}
           - {label: "Header Button Text", name: header_text, widget: "string"}
           - {label: "Header Button Redirect URL", name: header_button_redirect_url, widget: "string"}
           - {label: "Login Account Text", name: header_login_account_text, widget: "string"}
