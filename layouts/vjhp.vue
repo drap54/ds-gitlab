@@ -9,8 +9,8 @@
     head() {
       return {
         link: [
-          { rel: 'stylesheet', href: '~/assets/styles/styles/vjhp/main.css' },
-          { rel: 'stylesheet', href: '~/assets/styles/styles/vjhp/reset.css' },
+          { rel: 'stylesheet', href: '~assets/styles/styles/vjhp/main.css' },
+          { rel: 'stylesheet', href: '~assets/styles/styles/vjhp/reset.css' },
         ],
         script: [
           // { src: 'https://code.jquery.com/jquery-3.5.1.slim.min.js' },
