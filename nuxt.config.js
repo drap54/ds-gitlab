@@ -33,9 +33,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans' },
       { rel: 'stylesheet', href: '/marketing/styles/lp-core/fonts.css' },
-      { rel: 'stylesheet', href: '/marketing/styles/lp-core/bootstrap.min.css' },
-      { rel: 'stylesheet', href: '/marketing/styles/vjhp/main.css' },
-      { rel: 'stylesheet', href: '/marketing/styles/vjhp/reset.css' }
+      { rel: 'stylesheet', href: '/marketing/styles/lp-core/bootstrap.min.css' }
     ],
     style: [
       { cssText: '.async-hide { opacity: 0 !important }', type: 'text/css' },
