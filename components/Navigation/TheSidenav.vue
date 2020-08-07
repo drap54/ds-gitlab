@@ -14,7 +14,7 @@
             <nuxt-link to="/marketing/vjhp">Vera John Homepage</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/marketing/vjhp">Vera John Homepage</nuxt-link>
+            <nuxt-link to="/marketing/vjhp">VJ Stripped Down</nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link to="/marketing/about">About</nuxt-link>
