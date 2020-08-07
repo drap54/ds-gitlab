@@ -3,7 +3,7 @@
   <header class="the-header">
     <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
     <div class="logo">
-      <nuxt-link to="/">
+      <nuxt-link to="/marketing">
         <img src="~/assets/images/gamesys-logo.png"/>
       </nuxt-link>
     </div>

@@ -46,6 +46,7 @@ import section7 from '~/components/templates/vjhp/section7.vue'
 import footerSection from '~/components/templates/vjhp/footerSection.vue'
 
 export default {
+  layout: 'vjhp',
   components: {
     loginHeaderSection,
     headerSection,
@@ -59,7 +60,7 @@ export default {
   },
   async asyncData ({ params }) {
     try {
-      const post = await import('~/assets/content/landing-page/marketing/vjhp/'+ params.slug +'.md')
+      const post = await import('~/assets/content/homepage/marketing/vjhp/'+ params.slug +'.md')
       // const post = await import('~/assets/content/landing-page/marketing/vjhp/vj-homepage.md')
       return {
         post
