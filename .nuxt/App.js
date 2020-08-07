@@ -18,11 +18,11 @@ import '../static/marketing/styles/lp-core/hover-min.css'
 import '../static/marketing/styles/lp-core/slick.css'
 
 import _6f6c098b from '../layouts/default.vue'
-import _7831250a from '../layouts/vjlhp.vue'
+import _2d2adfb2 from '../layouts/vjhp.vue'
 import _783125c3 from '../layouts/vjlp1.vue'
 import _783125c5 from '../layouts/vjlp3.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_vjlhp": sanitizeComponent(_7831250a),"_vjlp1": sanitizeComponent(_783125c3),"_vjlp3": sanitizeComponent(_783125c5) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_vjhp": sanitizeComponent(_2d2adfb2),"_vjlp1": sanitizeComponent(_783125c3),"_vjlp3": sanitizeComponent(_783125c5) }
 
 export default {
   render (h, props) {
