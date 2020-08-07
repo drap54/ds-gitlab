@@ -12,10 +12,10 @@
       :header_login_account_text_redirect_url = "post.attributes.header_section.header_login_account_text_redirect_url" />
     <section2 />
     <gamesBrick
-      :games_brick_column_1_button = "post.attributes.games_brick_section.games_brick_column_1_button"
-      :games_brick_column_2_button = "post.attributes.games_brick_section.games_brick_column_2_button"
-      :games_brick_column_1_button_redirect_url = "post.attributes.games_brick_section.games_brick_column_1_button_redirect_url"
-      :games_brick_column_2_button_redirect_url = "post.attributes.games_brick_section.games_brick_column_2_button_redirect_url" />
+      :games_brick_column_1_button = "post.attributes.games_brick_section.games_brick_column_1.games_brick_column_1_button"
+      :games_brick_column_2_button = "post.attributes.games_brick_section.games_brick_column_2.games_brick_column_2_button"
+      :games_brick_column_1_button_redirect_url = "post.attributes.games_brick_section.games_brick_column_1.games_brick_column_1_button_redirect_url"
+      :games_brick_column_2_button_redirect_url = "post.attributes.games_brick_section.games_brick_column_2.games_brick_column_2_button_redirect_url" />
     <section4 />
     <section5 />
     <testimonialSection
@@ -46,7 +46,7 @@ import section7 from '~/components/templates/vjhp/section7.vue'
 import footerSection from '~/components/templates/vjhp/footerSection.vue'
 
 export default {
-  layout: 'vjhp',
+  layout: 'vjlp3',
   components: {
     loginHeaderSection,
     headerSection,
