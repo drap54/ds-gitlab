@@ -156,12 +156,12 @@ collections:
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: "VJ-Homapage"
+  - name: "VJ-Homepage"
     label: "Vera&John Homepage"
     format: 'frontmatter'
     folder: "assets/content/homepage/marketing/vjhp"
     create: true
-    identifier_field: "homepage_title"
+    identifier_field: "promo_banner.promo_title"
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: vjhp/{{slug}}
     show_preview_links: false
