@@ -102,6 +102,7 @@ input[type="submit"],
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff !important;
+		padding: 11px 0;
 	}
 
 		input[type="submit"]:hover,
@@ -1068,10 +1069,25 @@ input[type="submit"],
 		.features li {
 			width: calc(50% - 0em);
 			margin-top: 3em;
-			padding: 3em 3em;
+			padding: 88px;
 			font-size: 21px;
 			line-height: 25px;
 			color: #FFFFFF;
+			height: 890px;
+			position: relative;
+		}
+
+		.features li a {
+			position: absolute;
+			bottom: 88px;
+			left: 30%;
+		}
+
+		.features li p {
+			position: absolute;
+			bottom: 130px;
+    		left: 10%;
+    		right: 10%;
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
@@ -2136,10 +2152,11 @@ input[type="submit"],
 		text-align: center;
 	}
 	.first-half {
+		position: relative;
 		background-color: #DB2D96;
 		background-image: url("/marketing/img/vjhp/mobile.png");
 		background-repeat: no-repeat;
-		background-position: center 300px;
+		background-position: center center;
 		margin-left: 0;
 	}
 	.first-half h3 {
@@ -2156,7 +2173,7 @@ input[type="submit"],
 		background-color: #FFEA00;
 		background-image: url("/marketing/img/vjhp/ipad.png");
 		background-repeat: no-repeat;
-		background-position: center 200px;
+		background-position: center 110px;
 		margin: 0;
 	}
 	.second-half h3 {
@@ -2235,7 +2252,7 @@ input[type="submit"],
 
 		#header h3 {
 			font-size: 21px;
-			line-height: 31px;
+			line-height: 25px;
 			margin-top: 40px;
 		}
 
@@ -2275,17 +2292,40 @@ input[type="submit"],
 			font-size: 40px !important;
 			line-height: 50px !important;
 			margin-bottom: 34px;
+			width: 688px;
+    		text-align: initial;
 		}
 
 		header.heading p {
 			margin-top: 2em;
 			margin-bottom: 0;
+			font-size: 22px !important;
+			line-height: 32px !important;
+		}
+
+		.first-half {
+			background-position: center 178px;
+		}
+		.second-half {
+			background-position: center 90px;
 		}
 
 		.features li {
 			width: 100%;
+			height: 861px;
+			padding: 48px;
 		}
-
+		.features li p {
+			bottom: 82px;
+		}
+		.first-half h3 {
+			font-size: 40px;
+			line-height: 50px;
+		}
+		.second-half h3 {
+			font-size: 40px;
+			line-height: 50px;
+		}
 		.gameslider li {
 			display: inline-block !important;
 			width: initial !important;
@@ -2341,10 +2381,17 @@ input[type="submit"],
 		a.button.primary {
 			font-size: 17px;
 			line-height: 20px;
-			padding-top: 17px;
+			padding-top: 11px;
 		}
 		a.button.secondary {
-			padding-top: 0;
+			position: absolute;
+    		bottom: 48px;
+    		left: 30%;
+		}
+		a.button.tertiary {
+			position: absolute;
+    		bottom: 48px;
+    		left: 30%;
 		}
 		.support h3 {
 			font-size: 24px;
@@ -2403,6 +2450,7 @@ input[type="submit"],
 		}
 		.first-half {
 			background-position: center 120px;
+			height: 800px;
 		}
 		.first-half h3 {
 			font-size: 26px;
