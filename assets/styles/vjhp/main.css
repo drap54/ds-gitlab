@@ -2124,7 +2124,7 @@ input[type="submit"],
 	}
 	.first-half {
 		background-color: #DB2D96;
-		background-image: url("../css/images/mobile.png");
+		background-image: url("/marketing/img/vjhp/mobile.png");
 		background-repeat: no-repeat;
 		background-position: center 300px;
 		margin-left: 0;
@@ -2141,7 +2141,7 @@ input[type="submit"],
 	}
 	.second-half {
 		background-color: #FFEA00;
-		background-image: url("../css/images/ipad.png");
+		background-image: url("/marketing/img/vjhp/ipad.png");
 		background-repeat: no-repeat;
 		background-position: center 200px;
 		margin: 0;
