@@ -1,17 +1,17 @@
 <template>
     <header id="header">
       <div style="display:none;">{{ title }}</div>
-			<span class="logo"><img src="~/assets/images/vjhp/logo.svg" alt="" /></span>
+			<span class="logo"><img src="images/logo.svg" alt="" /></span>
 			<h2>ベラジョン・オンラインカジノへようこそ!</h2>
 			<h1>日本NO.1カジノ!</h1>
 			<h3>圧倒的な人気とシェア!<br>さらに安心・安全・楽しいの3拍子がばっちり揃う、業界ナンバーワンカジノで遊んじゃおう!</h3>
 			<ul class="items-list gameslider">
-				<li><a href="#"><img src="../images/game1.svg"></a></li>
-				<li><a href="#"><img src="../images/game2.svg"></a></li>
-				<li><a href="#"><img src="../images/game3.svg"></a></li>
-				<li><a href="#"><img src="../images/game4.svg"></a></li>
-				<li><a href="#"><img src="../images/game5.svg"></a></li>
-				<li><a href="#"><img src="../images/game6.svg"></a></li>
+				<li><a href="#"><img src="images/game1.svg"></a></li>
+				<li><a href="#"><img src="images/game2.svg"></a></li>
+				<li><a href="#"><img src="images/game3.svg"></a></li>
+				<li><a href="#"><img src="images/game4.svg"></a></li>
+				<li><a href="#"><img src="images/game5.svg"></a></li>
+				<li><a href="#"><img src="images/game6.svg"></a></li>
 			</ul>
 			<h4>登録してからすぐ使える! 業界一お得なビギナーズボーナスのおまけつき!</h4>
 			<div class="chest"><a href="#"><img src="images/chest.svg" /></a></div>
