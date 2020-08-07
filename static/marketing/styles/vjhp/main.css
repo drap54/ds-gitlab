@@ -1292,9 +1292,9 @@ input[type="submit"],
 				margin-bottom: 0;
 			}
 
-			.spotlight .trivia-content header.heading {
-				/* margin: 0 0 2em 0; */
-			}
+			/* .spotlight .trivia-content header.heading {
+				margin: 0 0 2em 0;
+			} */
 
 		.spotlight .image {
 			display: inline-block;
