@@ -1,15 +1,15 @@
 <template>
   <div>
-    <loginHeaderSection
+    <!-- <loginHeaderSection
       :login_header_text = "post.attributes.login_header_section.login_header_text"
       :login_header_redirect_url = "post.attributes.login_header_section.login_header_redirect_url" />
     <headerSection
       :header_text = "post.attributes.header_section.header_text"
       :header_button_redirect_url = "post.attributes.header_section.header_button_redirect_url"
       :header_login_account_text = "post.attributes.header_section.header_login_account_text"
-      :header_login_account_text_redirect_url = "post.attributes.header_section.header_login_account_text_redirect_url" />
+      :header_login_account_text_redirect_url = "post.attributes.header_section.header_login_account_text_redirect_url" /> -->
     <section2 />
-    <gamesBrick
+    <!-- <gamesBrick
       :games_brick_column_1_button = "post.attributes.games_brick_section.games_brick_column_1_button"
       :games_brick_column_2_button = "post.attributes.games_brick_section.games_brick_column_2_button"
       :games_brick_column_1_button_redirect_url = "post.attributes.games_brick_section.games_brick_column_1_button_redirect_url"
@@ -28,7 +28,7 @@
       :footer_menu_1_redirect_url = "post.attributes.footer_section.footer_menu_1_redirect_url"
       :footer_menu_2_redirect_url = "post.attributes.footer_section.footer_menu_2_redirect_url"
       :footer_menu_3_redirect_url = "post.attributes.footer_section.footer_menu_3_redirect_url"
-      :footer_menu_4_redirect_url = "post.attributes.footer_section.footer_menu_4_redirect_url" />
+      :footer_menu_4_redirect_url = "post.attributes.footer_section.footer_menu_4_redirect_url" /> -->
   </div>
 </template>
 
