@@ -1,4 +1,5 @@
 <template>
+    <div id="wrapper">
     <header id="header">
 			<span class="logo"><img src="/marketing/img/vjhp/logo.svg" alt="" /></span>
 			<h2>ベラジョン・オンラインカジノへようこそ!</h2>
