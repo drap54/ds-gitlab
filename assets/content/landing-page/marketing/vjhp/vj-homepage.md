@@ -1,4 +1,6 @@
 ---
+promo_banner:
+  promo_title: Edit 2
 login_header_section:
   login_header_text: Ipsum000
   login_header_redirect_url: "#"
