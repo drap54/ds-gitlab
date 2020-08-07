@@ -60,6 +60,8 @@ export default {
     '~/static/marketing/styles/lp-core/animate.min.css',
     '~/static/marketing/styles/lp-core/hover-min.css',
     '~/static/marketing/styles/lp-core/slick.css',
+    '~/static/marketing/styles/vjhp/main.css',
+    '~/static/marketing/styles/vjhp/reset.css',
   ],
   /*
   ** Plugins to load before mounting the App
