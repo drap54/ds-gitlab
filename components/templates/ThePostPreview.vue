@@ -71,8 +71,6 @@ a {
 
 a:hover .post-content,
 a:active .post-content {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
+  background-color: #cce5ff;
 }
 </style>
