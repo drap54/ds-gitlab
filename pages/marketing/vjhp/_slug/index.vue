@@ -50,7 +50,7 @@ export default {
     '~/assets/styles/vjhp/reset.css',
     '~/static/styles/vjhp/main.css',
   ],
-  layout: 'vjlp3',
+  layout: 'vjhp',
   components: {
     loginHeaderSection,
     headerSection,
