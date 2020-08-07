@@ -23,7 +23,8 @@ input[type="submit"],
 		text-decoration: none;
 		white-space: nowrap;
 		max-width: 280px;
-		height: 54px;
+		width: 280px;
+    	height: 44px;
 	}
 
 		input[type="submit"].icon,
@@ -2340,15 +2341,10 @@ input[type="submit"],
 		a.button.primary {
 			font-size: 17px;
 			line-height: 20px;
-			width: 280px;
 			padding-top: 17px;
 		}
 		a.button.secondary {
-			width: 280px;
 			padding-top: 0;
-		}
-		a.button.tertiary {
-			width: 280px;
 		}
 		.support h3 {
 			font-size: 24px;
