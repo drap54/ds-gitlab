@@ -46,6 +46,10 @@ import section7 from '~/components/templates/vjhp/section7.vue'
 import footerSection from '~/components/templates/vjhp/footerSection.vue'
 
 export default {
+  css: [
+    '~/assets/styles/vjhp/reset.css',
+    '~/static/styles/vjhp/main.css',
+  ],
   layout: 'vjlp3',
   components: {
     loginHeaderSection,
@@ -71,3 +75,7 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>
