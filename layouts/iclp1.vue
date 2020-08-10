@@ -28,7 +28,3 @@
     }
   }
 </script>
-
-<style scoped>
-  #strip-container {background-position: 0 0;}
-</style>

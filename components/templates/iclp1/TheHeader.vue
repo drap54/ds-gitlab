@@ -80,10 +80,7 @@ export default {
   height: 150px;
   z-index: 999999;
 }
-#strip-container {
-  background: var(--bg-image) no-repeat center;
-  background-size: cover;
-}
+#strip-container {background-position: 0 0;}
 
 #stripblank-nobg { background: none; }
 
