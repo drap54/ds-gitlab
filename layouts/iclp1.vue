@@ -8,7 +8,7 @@
   export default {
     head() {
       return {
-        title: ['Intercasino'],
+        title: 'Intercasino',
         link: [
           { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
           { rel: 'stylesheet', href: 'https://files.vjpromo.com/bannerflow/lp-core/css/bootstrap.min.css' },
