@@ -1,33 +1,25 @@
 <template>
-  <header id="strip-container" class="container-flex h-100">
-    <a id="login-btn" v-bind:href="login_button_redirect_url" class="login hvr-pulse">
-      <div class="animated fadeIn">
-        <i class="material-icons">exit_to_app</i>
-        <div class="login-txt">{{ login_button }}</div>
-      </div>
-    </a>
+  <header id="strip-container" class="container-flex h-100">        
+		<a id="login-btn" href="#signin" class="login hvr-pulse">
+			<div class="animated fadeIn">
+				<i class="material-icons">exit_to_app</i> 
+				<div class="login-txt"><p>ログイン</p></div>
+			</div>
+		</a>    
     <div class="container">
-      <div class="row row-eq-height">
-        <div id="strip" class="col-lg-5 strip">
-          <div class="strip-container animated fadeIn" style="margin-top: 50.5px;">
-            <div class="logo animated fadeIn"></div>
-            <h1 v-if="title_display">
-              <span class="color-alt-two">{{ title }}</span>
-            </h1>
-            <div class="game-logo animated jello delay-2s" v-if="images.promo_game_logo"></div>
-            <h2 class="sub-offer text-center">
-              <span class="color-alt-two">{{ subtitle }}</span>
-            </h2>
-            <div class="spacer" v-if="!(images.promo_game_logo && subtitle)"></div>
-            <a
-              id="signup-btn"
-              v-bind:href="join_button_redirect_url"
-              class="button button-lrg d-block"
-            >{{ join_button }}</a>
-          </div>
+        <div class="row row-eq-height">
+              <div id="strip" class="col-12 strip"> 
+                <div class="strip-container animated fadeIn">
+                    <div class="logo animated fadeIn"></div>
+                    <div>
+            <h2>新規プレイヤー特典!</h2><h1 class="color-alt-two"><font color="#ffffff">総額$500</font></h1><h2>ウェルカムキャッシュ<br></h2>
+          </div>                       
+                    <!-- <div class="co-brand"></div>-->
+                    <a id="signup-btn" href="#" class="button button-lrg" style="display:block">今すぐ登録</a><!-- show button-->
+        <!-- <div class="game-logo animated jello delay-2s"></div>-->
+                </div>
+            </div>              
         </div>
-        <div id="#stripblank-nobg" class="col-lg-7"></div>
-      </div>
     </div>
     <style>
     :root {
