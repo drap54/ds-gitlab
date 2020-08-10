@@ -2,9 +2,7 @@
   <div class="container-fluid pp" v-if="promo_language_code == 'ja' && promo_country_code == 'jp'">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="payment-providers"></div>
-        </div>
+        <div class="col-12"><div class="payment-providers"></div></div>
       </div>
     </div>
   </div>
@@ -15,12 +13,12 @@ export default {
   props: {
     promo_language_code: {
       type: String,
-      required: true
+      required: true,
     },
     promo_country_code: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 };
 </script>
