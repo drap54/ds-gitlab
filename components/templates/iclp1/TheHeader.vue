@@ -85,7 +85,6 @@ export default {
   background-size: cover;
   background-position: 0 0;
 }
-  #strip-container {background-position: 0 0;}
 
 #stripblank-nobg { background: none; }
 
@@ -95,7 +94,8 @@ export default {
 
 @media only screen and (max-width: 575px) {
   #strip-container {
-    background: var(--bg-image-m) no-repeat center;
+    background: var(--bg-image-m) no-repeat;
+    background-position: 0 0;
     background-size: cover;
   }
 }
