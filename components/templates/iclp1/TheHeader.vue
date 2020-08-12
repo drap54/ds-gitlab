@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row row-eq-height">
               <div id="strip" class="col-12 strip"> 
-                <div class="strip-container animated fadeIn" style="margin-top:41px;">
+                <div class="strip-container animated fadeIn" style="margin-top: 75px;">
                     <div class="logo animated fadeIn"></div>
                     <div>
                       <h2>{{ subtitle1 }}</h2>
