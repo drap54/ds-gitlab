@@ -82,9 +82,8 @@ export default {
   z-index: 999999;
 }
 #strip-container {
-  background: var(--bg-image) no-repeat;
+  background: var(--bg-image) no-repeat top center;
   background-size: cover;
-  background-position: 0 0;
 }
 
 #stripblank-nobg { background: none; }
@@ -95,8 +94,7 @@ export default {
 
 @media only screen and (max-width: 575px) {
   #strip-container {
-    background: var(--bg-image-m) no-repeat;
-    background-position: 0 0;
+    background: var(--bg-image-m) no-repeat top center;
     background-size: cover;
   }
 }
