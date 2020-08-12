@@ -1,9 +1,9 @@
 <template>
   <header id="strip-container" class="container-flex h-100">        
-		<a id="login-btn" v-bind:href="promo_login_button_redirect_url" class="login hvr-pulse">
+		<a id="login-btn" v-bind:href="login_button_redirect_url" class="login hvr-pulse">
 			<div class="animated fadeIn">
 				<i class="material-icons">exit_to_app</i> 
-				<div class="login-txt"><p>{{ promo_login_button_text }}</p></div>
+				<div class="login-txt"><p>{{ login_button }}</p></div>
 			</div>
 		</a>    
     <div class="container">
@@ -12,15 +12,15 @@
                 <div class="strip-container animated fadeIn" style="margin-top:41px;">
                     <div class="logo animated fadeIn"></div>
                     <div>
-                      <h2>{{ promo_subtitle_1 }}</h2>
-                      <h1 class="color-alt-two"><font color="#ffffff">{{ promo_main_heading }}</font></h1>
-                      <h2>{{ promo_subtitle_2 }}<br></h2>
+                      <h2>{{ subtitle1 }}</h2>
+                      <h1 class="color-alt-two"><font color="#ffffff">{{ main_heading }}</font></h1>
+                      <h2>{{ subtitle2 }}<br></h2>
                     </div>                       
                     <!-- <div class="co-brand"></div>-->
-                    <a id="signup-btn" v-bind:href="promo_signup_button_redirect_url" class="button button-lrg" style="display:block">{{ promo_signup_button }}</a><!-- show button-->
+                    <a id="signup-btn" v-bind:href="signup_button_redirect_url" class="button button-lrg" style="display:block">{{ signup_button }}</a><!-- show button-->
                     <!-- <div class="game-logo animated jello delay-2s"></div>-->
                 </div>
-                <div class="small-terms"><a v-bind:href="promo_smallterm_redirect_url" class="link-terms-conditions ctac">{{ promo_smallterm_text_link }}</a>{{ promo_smallterm_text }}</div>
+                <div class="small-terms"><a v-bind:href="small_term_redirect_url" class="link-terms-conditions ctac">{{ small_term_text_link }}</a>{{ small_term_text }}</div>
             </div>              
         </div>
     </div>
@@ -48,17 +48,14 @@ export default {
     },
     subtitle1: {
       type: String,
-      default: '',
       required: true,
     },
     main_heading: {
       type: String,
-      default: '',
       required: true,
     },
     subtitle2: {
       type: String,
-      default: '',
       required: true,
     },
     login_button: {
@@ -79,23 +76,20 @@ export default {
     },
     small_term_text: {
       type: String,
-      default: '',
       required: true,
     },
     small_term_text_link: {
       type: String,
-      default: '',
       required: true,
     },
     small_term_redirect_url: {
       type: String,
-      default: '',
       required: true,
     },
     images: {
       type: Object,
       required: true,
-    },
+    }
   },
 };
 </script>
