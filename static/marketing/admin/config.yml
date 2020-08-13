@@ -195,7 +195,6 @@ collections:
         collapsed: true
         fields:
           - {label: "Title", name: "promo_title", widget: "string"}
-          - {label: "Display Title", name: "promo_title_display", widget: "boolean", default: true}
           - {label: "Login Button Text", name: promo_login_button_text, widget: "string"}
           - {label: "Login Button Redirect URL", name: promo_login_button_redirect_url, widget: "string"}
           - {label: "Subtitle 1", name: "promo_subtitle_1", widget: "string", required: false}

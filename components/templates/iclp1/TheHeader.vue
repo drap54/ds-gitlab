@@ -42,10 +42,6 @@ export default {
       type: String,
       required: true,
     },
-    title_display: {
-      type: Boolean,
-      required: true,
-    },
     title_animate: {
       type: Boolean,
       required: true,
