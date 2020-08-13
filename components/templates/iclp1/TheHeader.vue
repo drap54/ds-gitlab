@@ -13,7 +13,7 @@
                     <div class="logo animated fadeIn"></div>
                     <div>
                       <h2>{{ subtitle1 }}</h2>
-                      <div v-if="promo_title_animate" class="sign"><h1 style="font-size:3.6em;" class="color-alt-two"><font color="#ffffff">{{ main_heading }}</font></h1></div>
+                      <div v-bind:class="{sign: title_animate}"><h1 style="font-size:3.6em;" class="color-alt-two"><font color="#ffffff">{{ main_heading }}</font></h1></div>
                       <h2>{{ subtitle2 }}<br></h2>
                     </div>                       
                     <!-- <div class="co-brand"></div>-->
@@ -43,6 +43,10 @@ export default {
       required: true,
     },
     title_display: {
+      type: Boolean,
+      required: true,
+    },
+    title_animate: {
       type: Boolean,
       required: true,
     },
@@ -95,6 +99,9 @@ export default {
       required: true,
     }
   },
+  data: {
+    title_animate: true,
+  }
 };
 </script>
 
