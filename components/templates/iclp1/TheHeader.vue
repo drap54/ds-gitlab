@@ -13,8 +13,10 @@
                     <div class="logo animated fadeIn"></div>
                     <div>
                       <h2>{{ subtitle1 }}</h2>
-                      <div v-bind:class="{sign: title_animate}"><h1 style="font-size:3.6em;" class="color-alt-two"><font color="#ffffff">{{ main_heading }}</font></h1></div>
-                      <h2>{{ subtitle2 }}<br></h2>
+                      <div v-bind:class="{sign: title_animate}">
+                        <h1 style="font-size:3.6em;" class="color-alt-two"><font color="#ffffff">{{ main_heading }}</font></h1>
+                        <h2>{{ subtitle2 }}<br></h2>
+                      </div>
                     </div>                       
                     <!-- <div class="co-brand"></div>-->
                     <a id="signup-btn" v-bind:href="signup_button_redirect_url" class="button button-lrg" style="display:block">{{ signup_button }}</a><!-- show button-->
