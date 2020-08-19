@@ -1,7 +1,7 @@
 <template>
 <div class="header-container">
   <header class="the-header">
-    <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
+    <TheSideNavToggle @toggle="$emit('sidenav-toggle')" />
     <div class="logo">
       <nuxt-link to="/marketing">
         <img src="~/assets/images/gamesys-logo.png"/>
