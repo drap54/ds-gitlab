@@ -126,3 +126,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+#footer .container-fluid.pp {
+    border-bottom: none;
+}
+</style>
