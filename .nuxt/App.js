@@ -9,13 +9,6 @@ import {
 } from './utils'
 
 import NuxtLoading from './components/nuxt-loading.vue'
-import NuxtBuildIndicator from './components/nuxt-build-indicator'
-
-import '../static/marketing/styles/lp-core/animate.min.css'
-
-import '../static/marketing/styles/lp-core/hover-min.css'
-
-import '../static/marketing/styles/lp-core/slick.css'
 
 import _6f6c098b from '../layouts/default.vue'
 import _7776c59d from '../layouts/iclp1.vue'
@@ -58,7 +51,7 @@ export default {
       }
     }, [
       loadingEl,
-      h(NuxtBuildIndicator),
+
       transitionEl
     ])
   },
@@ -183,10 +176,6 @@ export default {
     },
 
     setLayout (layout) {
-      if(layout && typeof layout !== 'string') {
-        throw new Error('[nuxt] Avoid using non-string value as layout property.')
-      }
-
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

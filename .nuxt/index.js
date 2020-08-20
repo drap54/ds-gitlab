@@ -12,7 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_gtm_62f08cc6 from 'nuxt_plugin_gtm_62f08cc6' // Source: ./gtm.js (mode: 'all')
-import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ../plugins/ga.js (mode: 'client')
+import nuxt_plugin_ga_34d435b2 from 'nuxt_plugin_ga_34d435b2' // Source: ../plugins/ga.js (mode: 'client')
+import nuxt_plugin_vuelazysizes_2514cbf6 from 'nuxt_plugin_vuelazysizes_2514cbf6' // Source: ../plugins/vue-lazysizes.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -51,7 +52,7 @@ async function createApp (ssrContext) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"nuxt-netlify-landing-page","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"InterCasino Landing Page"},{"hid":"robots","name":"robots","content":"noindex"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"\u002Fmarketing\u002Fstyles\u002Flp-core\u002Ffonts.css"},{"rel":"stylesheet","href":"\u002Fmarketing\u002Fstyles\u002Flp-core\u002Fbootstrap.min.css"}],"style":[{"cssText":".async-hide { opacity: 0 !important }","type":"text\u002Fcss"}],"script":[{"type":"text\u002Fjavascript","src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fjquery-3.5.1.slim.min.js"},{"defer":true,"src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fpopper.min.js"},{"defer":true,"src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fbootstrap.min.js"},{"type":"text\u002Fjavascript","src":"\u002Fmarketing\u002Fjs\u002Fpage-hide.js"},{"type":"text\u002Fjavascript","src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fform.js"},{"defer":true,"type":"text\u002Fjavascript","src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fjquery.flexverticalcenter.js"},{"type":"text\u002Fjavascript","src":"\u002Fmarketing\u002Fjs\u002Flp-core\u002Fslick.min.js"}]},
+    head: {"title":"gamesys-digital-acquisition","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Gamesys Digital Acquisition Landing Page"},{"hid":"robots","name":"robots","content":"noindex"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fmarketing\u002Fgamesys-favicon.ico"},{"preload":true,"rel":"stylesheet","href":"\u002Fmarketing\u002Fstyles\u002Fvjlp-core\u002Ffonts.css"}],"style":[{"cssText":".async-hide { opacity: 0 !important }","type":"text\u002Fcss"}],"script":[{"hid":"gtm-script","innerHTML":"if(!window._gtm_init){window._gtm_init=1;(function (w,n,d,m,e,p){w[d]=(w[d]==1||n[d]=='yes'||n[d]==1||n[m]==1||(w[e]&&w[e].p&&e[e][p]()))?1:0})(window,'navigator','doNotTrack','msDoNotTrack','external','msTrackingProtectionEnabled');(function(w,d,s,l,x,y){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});w[x]={};w._gtm_inject=function(i){if(w.doNotTrack||w[x][i])return;w[x][i]=1;var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https:\u002F\u002Fwww.googletagmanager.com\u002Fgtm.js?id='+i;f.parentNode.insertBefore(j,f);};w[y]('GTM-MFD3NKM')})(window,document,'script','dataLayer','_gtm_ids','_gtm_inject')}"}],"noscript":[{"hid":"gtm-noscript","pbody":true,"innerHTML":"\u003Ciframe src=\"https:\u002F\u002Fwww.googletagmanager.com\u002Fns.html?id=GTM-MFD3NKM&\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\" title=\"gtm\"\u003E\u003C\u002Fiframe\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gtm-script":["innerHTML"],"gtm-noscript":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -155,8 +156,12 @@ async function createApp (ssrContext) {
     await nuxt_plugin_gtm_62f08cc6(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_ga_fb0a2534 === 'function') {
-    await nuxt_plugin_ga_fb0a2534(app.context, inject)
+  if (process.client && typeof nuxt_plugin_ga_34d435b2 === 'function') {
+    await nuxt_plugin_ga_34d435b2(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vuelazysizes_2514cbf6 === 'function') {
+    await nuxt_plugin_vuelazysizes_2514cbf6(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

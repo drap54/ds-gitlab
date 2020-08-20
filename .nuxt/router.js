@@ -10,9 +10,9 @@ const _66c83cf3 = () => interopDefault(import('../pages/marketing/vjhp/index.vue
 const _54f2c590 = () => interopDefault(import('../pages/marketing/vjlp1/index.vue' /* webpackChunkName: "pages/marketing/vjlp1/index" */))
 const _015ffa8c = () => interopDefault(import('../pages/marketing/vjlp3/index.vue' /* webpackChunkName: "pages/marketing/vjlp3/index" */))
 const _29cb0b66 = () => interopDefault(import('../pages/marketing/iclp1/_slug/index.vue' /* webpackChunkName: "pages/marketing/iclp1/_slug/index" */))
-const _63c775ee = () => interopDefault(import('../pages/marketing/vjhp/_slug/index.vue' /* webpackChunkName: "pages/marketing/vjhp/_slug/index" */))
 const _3768631a = () => interopDefault(import('../pages/marketing/vjlp1/_slug/index.vue' /* webpackChunkName: "pages/marketing/vjlp1/_slug/index" */))
 const _f4c0eb16 = () => interopDefault(import('../pages/marketing/vjlp3/_slug/index.vue' /* webpackChunkName: "pages/marketing/vjlp3/_slug/index" */))
+const _71c043d8 = () => interopDefault(import('../pages/marketing/vjhp' /* webpackChunkName: "" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -59,10 +59,6 @@ export const routerOptions = {
     component: _29cb0b66,
     name: "marketing-iclp1-slug"
   }, {
-    path: "/marketing/vjhp/:slug",
-    component: _63c775ee,
-    name: "marketing-vjhp-slug"
-  }, {
     path: "/marketing/vjlp1/:slug",
     component: _3768631a,
     name: "marketing-vjlp1-slug"
@@ -70,6 +66,10 @@ export const routerOptions = {
     path: "/marketing/vjlp3/:slug",
     component: _f4c0eb16,
     name: "marketing-vjlp3-slug"
+  }, {
+    path: "/home/",
+    component: _71c043d8,
+    name: "home"
   }],
 
   fallback: false
