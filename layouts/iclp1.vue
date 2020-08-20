@@ -20,8 +20,11 @@
           { rel: 'stylesheet', href: 'https://files.vjpromo.com/bannerflow/lp2/brand_icjp/css/brand.css' },
           { rel: 'stylesheet', href: 'https://files.vjpromo.com/bannerflow/lp2/css/responsive.css' },
           { defer: true, rel: 'stylesheet', href: '/marketing/styles/iclp1/flicker.css' },
-        ],
-        script: [ ]
+        ], 
+        script: [
+          { src: 'https://files.vjpromo.com/bannerflow/lp-core/js/jquery-1.11.3.min.js' },
+          { defer: true, src: 'https://files.vjpromo.com/bannerflow/lp2/brand_icjp/js/before.js' },
+        ]
       }
     }
   }
