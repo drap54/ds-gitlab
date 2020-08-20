@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "Content",
+  name: 'Content',
   props: {
     promo_content: {
       type: String,

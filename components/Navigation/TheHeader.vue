@@ -23,10 +23,10 @@
 </template>
 
 <script>
-import TheSideNavToggle from "~/components/Navigation/TheSideNavToggle";
+import TheSideNavToggle from '~/components/navigation/TheSideNavToggle'
 
 export default {
-  name: "TheHeader",
+  name: 'TheHeader',
   components: {
     TheSideNavToggle
   }

@@ -113,7 +113,7 @@
 
 <script scoped>
 export default {
-  name: "Footer",
+  name: 'Footer',
   props: {
     promo_language_code: {
       type: String,

@@ -9,7 +9,7 @@
 </template>
 <script scoped>
 export default {
-  name: "Payment",
+  name: 'Payment',
   props: {
     promo_language_code: {
       type: String,
