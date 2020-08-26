@@ -61,26 +61,94 @@
 export default {
   name: 'TheHeaderSection',
   props: {
-    header_text: {
+    // header_text: {
+    //   type: String,
+    //   required: true,
+    // },
+    // header_button_redirect_url: {
+    //   type: String,
+    //   required: true,
+    // },
+    // header_login_account_text: {
+    //   type: String,
+    //   required: true,
+    // },
+    // header_login_account_text_redirect_url: {
+    //   type: String,
+    //   required: true,
+    // },
+    // homepage_title: {
+    //   type: String,
+    //   required: true,
+    // },
+    login_header_text: {
       type: String,
       required: true,
     },
-    header_button_redirect_url: {
+login_header_redirect_url: {
       type: String,
       required: true,
     },
-    header_login_account_text: {
+header_section_welcome_message: {
       type: String,
       required: true,
     },
-    header_login_account_text_redirect_url: {
+header_section_main_heading: {
       type: String,
       required: true,
     },
-    homepage_title: {
+header_section_heading_subtitle: {
       type: String,
       required: true,
     },
+header_section_game_slider_url_1: {
+      type: String,
+      required: true,
+    },
+header_section_game_slider_url_2: {
+      type: String,
+      required: true,
+    },
+header_section_game_slider_url_3: {
+      type: String,
+      required: true,
+    },
+header_section_game_slider_url_4: {
+      type: String,
+      required: true,
+    },
+header_section_game_slider_url_5: {
+      type: String,
+      required: true,
+    },
+header_section_game_slider_url_6: {
+      type: String,
+      required: true,
+    },
+header_section_best_deal_caption: {
+      type: String,
+      required: true,
+    },
+header_section_best_deal_small_caption: {
+      type: String,
+      required: true,
+    },
+header_section_register_button: {
+      type: String,
+      required: true,
+    },
+header_section_register_button_url: {
+      type: String,
+      required: true,
+    },
+header_section_account_login: {
+      type: String,
+      required: true,
+    },
+header_section_account_login_url: {
+      type: String,
+      required: true,
+    }
   }
 };
 </script>
