@@ -15,7 +15,7 @@
     "@nuxtjs/gtm": "^2.3.0",
     "@nuxtjs/markdownit": "^1.2.9",
     "@nuxtjs/svg": "^0.1.11",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "frontmatter-markdown-loader": "^3.4.3",
     "jquery": "^3.5.1",
     "lazysizes": "^5.2.2",
